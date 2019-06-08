@@ -31,7 +31,7 @@ class App extends Component {
       });
   };
 
-  // DONT FORGET TO IMPORT LIST TO GET RENDER
+  // DONT FORGET TO IMPORT LIST TO GET RENDER!!!!
   render() {
     return (
       <div className="App">
