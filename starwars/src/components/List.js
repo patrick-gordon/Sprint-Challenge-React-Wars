@@ -1,12 +1,12 @@
 import React from 'react';
-import Person from './Person';
+import Characteristics from './Characteristics';
 import './StarWars.css';
 
-//component for rendering to screen and mapping through
+//component for rendering to screen and mapping through items for correct data
 const List = props => {
     return(
         <div className='list'>
-            {props.starwarsChars.map(item => (<Person item={item} />
+            {props.starwarsChars.map(item => (<Characteristics item={item} />
             ))}
         </div>
     )

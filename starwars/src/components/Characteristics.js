@@ -2,7 +2,7 @@ import React from 'react';
 import './StarWars.css';
 
 // get the info from API component for starwarsChar
-const Person = props => {
+const Characteristics = props => {
     return(
         <div className='person'>
             <p>Name: {props.item.name}</p>
@@ -13,4 +13,4 @@ const Person = props => {
     )
 }
 
-export default Person
+export default Characteristics
